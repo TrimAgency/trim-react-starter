@@ -1,6 +1,4 @@
-![Build status](https://travis-ci.org/ueno-llc/starter-kit-universally.svg) ![Dependencies](https://david-dm.org/ueno-llc/starter-kit-universally/status.svg) ![devDependencies](https://david-dm.org/ueno-llc/starter-kit-universally/dev-status.svg)
-
-![Ueno](/docs/_ueno-loves-react.png)
+![Build status](https://travis-ci.org/TrimAgency/trim-react-starter.svg) ![Dependencies](https://david-dm.org/TrimAgency/trim-react-starter/status.svg) ![devDependencies](https://david-dm.org/TrimAgency/trim-react-starter/dev-status.svg)
 
 # React Starter Kit
 
@@ -18,18 +16,18 @@ The Professional react starter kit with everything you'll ever need to deploy ro
 Super-Quick Start
 
 ```bash
-git clone -b master https://github.com/ueno-llc/starter-kit-universally.git my-app
+git clone -b master https://github.com/TrimAgency/trim-react-starter.git my-app
 cd my-app
 yarn
 yarn rename "My New App"
 yarn dev
 ```
 
-[Detailed guide here](https://ueno-llc.github.io/starter-kit-universally/#/GETTING_STARTED)
+[Detailed guide here](https://TrimAgency.github.io/trim-react-starter/#/GETTING_STARTED)
 
 ## Documentation
 
-The **[Documentation is available here](https://ueno-llc.github.io/starter-kit-universally)** on GitHub Pages.
+The **[Documentation is available here](https://TrimAgency.github.io/trim-react-starter)** on GitHub Pages.
 
 We also recommend the following reading material:
  - [React Universally](https://github.com/ctrlplusb/react-universally)
@@ -41,7 +39,7 @@ No plans have been made so far to upgrade. We only support merging from upstream
 
 ## Contributing
 
-If you are interested in helping out, feel free to submit issues, pull-requests or even [contact us](mailto:birkir@ueno.co). We are open to all kind of contributions.
+If you are interested in helping out, feel free to submit issues, pull-requests or even [contact us](mailto:services@trimagency.com). We are open to all kind of contributions.
 
 ## License
 

@@ -4,9 +4,9 @@ It is very easy to get started, no environment variables or anything are require
 
 ```bash
 # Clone the repository to your own folder
-git clone -b master https://github.com/ueno-llc/starter-kit-universally.git my-app
+git clone -b master https://github.com/TrimAgency/trim-react-starter.git my-app
 
-# Especially important for Ueno employees!
+# Especially important for TRIM employees!
 git remote remove origin
 
 # Add your own git repository (optional)

@@ -1,5 +1,3 @@
-![React Native](_ueno-loves-react.png)
-
 # React Starter Kit
 
 The Professional react starter kit with everything you'll ever need to deploy rock solid apps.
@@ -11,6 +9,6 @@ The Professional react starter kit with everything you'll ever need to deploy ro
 - MobX
 - Code splitting
 
-**[GitHub](https://github.com/ueno-llc/starter-kit-universally)**
+**[GitHub](https://github.com/TrimAgency/trim-react-starter)**
 
 **[Get Started](/GETTING_STARTED.md)**

@@ -1,7 +1,7 @@
 {
-  "name": "starter-kit-universally",
-  "version": "1.4.7",
-  "description": "A starter kit from Ueno. Based on react-universally",
+  "name": "trim-react-starter",
+  "version": "1.0.0",
+  "description": "A starter kit from TRIM. Based on react-universally",
   "main": "build/server/index.js",
   "engines": {
     "node": ">=8 <10"
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ueno-llc/starter-kit-universally"
+    "url": "git+https://github.com/TrimAgency/trim-react-starter"
   },
   "keywords": [
     "react",
@@ -45,9 +45,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ueno-llc/starter-kit-universally/issues"
+    "url": "https://github.com/TrimAgency/trim-react-starter/issues"
   },
-  "homepage": "https://github.com/ueno-llc/starter-kit-universally",
+  "homepage": "https://github.com/TrimAgency/trim-react-starter",
   "jest": {
     "collectCoverageFrom": [
       "shared/**/*.{js,jsx}"
