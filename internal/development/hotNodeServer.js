@@ -39,7 +39,7 @@ class HotNodeServer {
       newServer.stdout.on('data', data => console.log(data.toString().trim()));
       newServer.stderr.on('data', (data) => {
 
-        // UENO: Make sure to remove this after React 16 is out of alpha
+        // TRIM: Make sure to remove this after React 16 is out of alpha
         if (data.toString().indexOf('Accessing PropTypes via the main React package') >= 0) {
           return;
         }

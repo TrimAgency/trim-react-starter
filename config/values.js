@@ -143,7 +143,7 @@ const values = {
       lang: 'en',
     },
     title: 'Home',
-    titleTemplate: 'Ueno. - %s',
+    titleTemplate: 'TRIM. - %s',
     meta: [
       /*
         A great reference for favicons:
@@ -154,7 +154,7 @@ const values = {
         http://www.favicomatic.com/
       */
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
-      { name: 'description', content: 'Ueno. description text here!' },
+      { name: 'description', content: 'TRIM. description text here!' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' }, // prevents inputs from zooming, but iOS still allows normal pinch zoom
       { name: 'msapplication-TileColor', content: '#00E2AD' },
       { name: 'msapplication-TileImage', content: '/favicons/mstile-150x150.png' },
@@ -166,10 +166,10 @@ const values = {
       { property: 'og:image', content: `${baseUrl}/share.png` },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:image', content: `${baseUrl}/share.png` },
-      { name: 'twitter:site', content: '@ueno' },
-      { name: 'twitter:creator', content: '@ueno' },
-      { name: 'twitter:description', content: 'Ueno. description text here!' },
-      { name: 'twitter:title', content: 'Ueno.' },
+      { name: 'twitter:site', content: '@trimagency' },
+      { name: 'twitter:creator', content: '@trimagency' },
+      { name: 'twitter:description', content: 'TRIM. description text here!' },
+      { name: 'twitter:title', content: 'TRIM.' },
     ],
     link: [
       { rel: 'apple-touch-icon-precomposed', sizes: '152x152', href: '/favicons/apple-touch-icon-152x152.png' },

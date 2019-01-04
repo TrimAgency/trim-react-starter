@@ -1,13 +1,14 @@
 {
-  "name": "React Starter Kit",
-  "description": "A starter kit from Ueno. Based on react-universally",
+  "name": "TRIM React Starter",
+  "description": "A starter kit from TRIM. Based on Ueno's react starter kit and react-universally",
   "keywords": [
-    "starter kit",
-    "www"
+    "reat starter",
+    "react",
+    "TRIM"
   ],
   "scripts": {},
-  "website": "https://github.com/ueno-llc/starter-kit-universally#readme",
-  "repository": "https://github.com/ueno-llc/starter-kit-universally.git",
+  "website": "https://github.com/TrimAgency/trim-react-starter#readme",
+  "repository": "https://github.com/TrimAgency/trim-react-starter.git",
   "env": {
     "NODE_ENV": {
       "description": "Environment to build",

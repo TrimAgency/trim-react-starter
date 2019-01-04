@@ -15,7 +15,7 @@ import { ifElse } from '../../internal/utils/logic';
 
 function externals() {
 
-  // UENO: Define externals
+  // TRIM: Define externals
   // We don't want our node_modules to be bundled with any bundle that is
   // targetting the node environment, prefering them to be resolved via
   // native node module system.

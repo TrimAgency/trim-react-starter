@@ -1,6 +1,6 @@
 # Icons
 
-The React Starter Kit is shipped with a Ueno logo by default for all browsers and sharing images, but you can replace all of them easily.
+The React Starter Kit is shipped with a TRIM logo by default for all browsers and sharing images, but you can replace all of them easily.
 
 ## Favicons
 

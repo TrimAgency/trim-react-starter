@@ -1,4 +1,4 @@
-$gutter: 30px;
+$gutter: 40px;
 $container-gutter-mobile: $gutter;
 $container-gutter-tablet: 50px;
 $container-gutter-desktop: 70px;
@@ -12,20 +12,22 @@ $page-width: 1290px;
 $page-limit: $page-width + ($container-gutter-desktop * 2);
 
 // Fonts
-$font-family: 'Roboto', sans-serif;
+$font-family: 'Poppins', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
 $font-size: 16px;
 $font-size-min: 13px;
 $line-height: 1.5;
 
 // Colors
 $color-font: #333;
-$color-background: #fff;
 $color-light: #777;
-$color-dark: #111;
+$color-dark: #3C3C3B;
 $color-pink: #aa0078;
-$color-primary: $color-pink;
+$color-tan: #F9F9F0;
 $color-placeholder: #ddd;
-
+$color-green: #71EDA2;
+$color-primary: $color-dark;
+$color-background: $color-tan;
 // Timings
 $transition-enter: 200ms;
 $transition-leave: 500ms;

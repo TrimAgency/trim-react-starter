@@ -1,7 +1,7 @@
 {
   "name": "trim-react-starter",
   "version": "1.0.0",
-  "description": "A starter kit from TRIM. Based on react-universally",
+  "description": "A starter kit from TRIM. Based on Ueno's react starter and react-universally",
   "main": "build/server/index.js",
   "engines": {
     "node": ">=8 <10"

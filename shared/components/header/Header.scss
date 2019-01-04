@@ -5,7 +5,7 @@
 
   margin: 0 0 $gutter;
 
-  background-color: #fff;
+  background-color: $color-background;
 
   &__container {
     @include container;
@@ -23,7 +23,7 @@
   &__logo {
     @include reset-anchor;
 
-    &Svg {
+    &Png {
       display: block;
     }
   }

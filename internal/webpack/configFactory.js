@@ -74,7 +74,7 @@ export default function webpackConfigFactory(buildOptions) {
     throw new Error('No bundle configuration exists for target:', target);
   }
 
-  // UENO: Local identname
+  // TRIM: Local identname
   const localIdentName = ifDev('[name]_[local]_[hash:base64:5]', '[hash:base64:10]');
 
   buildOptions.localIdentName = localIdentName;
@@ -182,7 +182,7 @@ export default function webpackConfigFactory(buildOptions) {
       // Empty alias object for easier extendability
       alias: {},
 
-      // UENO: The ./shared is now a resolved root.
+      // TRIM: The ./shared is now a resolved root.
       modules: [
         './shared',
         path.resolve(appRootDir.get(), 'shared'),
@@ -306,7 +306,6 @@ export default function webpackConfigFactory(buildOptions) {
             },
             mangle: {
               screw_ie8: true,
-              // UENO: We like this.
               keep_fnames: true,
             },
             output: {
@@ -437,10 +436,10 @@ export default function webpackConfigFactory(buildOptions) {
       // END: HAPPY PACK PLUGINS
       // -----------------------------------------------------------------------
 
-      // UENO: We want this, which file system?
+      // TRIM: We want this, which file system?
       new CaseSensitivePathsPlugin(),
 
-      // UENO: Perf related stuff
+      // TRIM: Perf related stuff
       ifPerf(
         () => {
           const category = isClient ? 'client' : 'server';

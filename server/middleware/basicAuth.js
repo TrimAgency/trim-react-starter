@@ -25,7 +25,7 @@ export default function basicAuthMiddleware(req, res, next) {
 
   if (!credentials || credentials.name !== name || credentials.pass !== pass) {
     res.writeHead(401, {
-      'WWW-Authenticate': 'Basic realm="ueno"',
+      'WWW-Authenticate': 'Basic realm="trim"',
     });
 
     return res.end();

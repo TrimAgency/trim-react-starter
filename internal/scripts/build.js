@@ -14,7 +14,7 @@ const [x, y, ...args] = process.argv;
 
 const optimize = args.findIndex(arg => arg === '--optimize') !== -1;
 
-// UENO: removed! We do this in build script.
+// TRIM: removed! We do this in build script.
 // First clear the build output dir.
 // exec(`rimraf ${pathResolve(appRootDir.get(), config('buildOutputPath'))}`);
 

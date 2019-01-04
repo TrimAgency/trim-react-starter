@@ -1,7 +1,7 @@
 @import '~styles/config';
 
-$btn-height: 40px;
-$btn-border-width: 2px;
+$btn-height: 50px;
+$btn-border-width: 3px;
 
 .button {
   @include reset-button;
@@ -9,23 +9,25 @@ $btn-border-width: 2px;
   display: inline-flex;
   position: relative;
 
-  padding: 0 $gutter;
+  padding: 8px $gutter;
 
   height: $btn-height;
 
-  font-size: $font-size;
-  line-height: ($btn-height - 2 * $btn-border-width);
-  vertical-align: middle;
+  font-size: inherit;
+  font-family: $secondary-font;
+  line-height: 30px;
+  vertical-align: top;
   text-align: center;
+  text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
+  color: $color-primary;
 
   cursor: pointer;
 
-  border: $btn-border-width solid transparent;
-  border-radius: $btn-border-width;
+  border: $btn-border-width solid $color-dark;
+  border-radius: 0;
 
-  background: $color-primary;
+  background: transparent;
 
   transition: 180ms;
   transition-property: border-color, background-color, color, opacity;
@@ -34,18 +36,49 @@ $btn-border-width: 2px;
     margin-left: $gutter / 2;
   }
 
-  &:hover,
-  &:focus {
-    outline: none;
+  &::before {
+    content: '';
+    opacity: 0;
+    background-color: $color-green;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    z-index: -1;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
   }
 
-  &:hover {
-    background-color: darken($color-primary, 10%);
+  &:hover,
+  &:focus {
+    z-index: 1;
+    outline: 0;
+    &::before {
+      opacity: 1;
+    }
+    &::after {
+      content: '';
+      border: 3px solid $color-dark;
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      width: calc(100% + 6px);
+      height: calc(100% + 6px);
+    }
   }
 
   &.disabled {
     cursor: default;
 
     background-color: #bbb;
+    &:hover,
+    &:focus {
+      z-index: 1;
+      outline: 0;
+      &::before {
+        opacity: 0;
+      }
+    }
   }
 }

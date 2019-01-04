@@ -54,20 +54,20 @@ for file in "${FILES[@]}"
 do
   if [ -f $file ]; then
     echo "Patching $file"
-    perl -pi -e "s/starter-kit-universally/$SLUG/g" $file
+    perl -pi -e "s/trim-react-starter/$SLUG/g" $file
   else
     echo "$file does not match any file(s)."
   fi
 done
 
 # Package.json
-perl -pi -e "s/\"name\": \"starter-kit-universally\",/\"name\"\: \"$NAME\",/" package.json
-perl -pi -e "s/\"description\": \"A starter kit from Ueno. Based on react-universally\",/\"description\"\: \"$NAME's description\",/" package.json
+perl -pi -e "s/\"name\": \"trim-react-starter\",/\"name\"\: \"$NAME\",/" package.json
+perl -pi -e "s/\"description\": \"A starter kit from TRIM. Based on Ueno's react starter and react-universally\",/\"description\"\: \"$NAME's description\",/" package.json
 perl -pi -e "s/\"version\": \".*\",/\"version\": \"1.0.0\",/" package.json
 
 # App.json
 perl -pi -e "s/\"name\": \"React Starter Kit\",/\"name\"\: \"$NAME\",/" app.json
-perl -pi -e "s/\"description\": \"A starter kit from Ueno. Based on react-universally\",/\"description\"\: \"$NAME's description\",/" app.json
+perl -pi -e "s/\"description\": \"A starter kit from TRIM. Based on Ueno's react starter and react-universally\",/\"description\"\: \"$NAME's description\",/" app.json
 perl -pi -e "s/\"version\": \".*\",/\"version\": \"1.0.0\",/" app.json
 
 if [[ $REST != *"--no-git"* ]]; then
